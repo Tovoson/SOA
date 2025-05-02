@@ -91,7 +91,7 @@ DATABASES = {
         'NAME': 'soa',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': 'localhost',  # Ou l'adresse de votre serveur
+        'HOST': '127.0.0.1',  # Ou l'adresse de votre serveur
         'PORT': '3306',       # Port par défaut de MySQL
     }
 }

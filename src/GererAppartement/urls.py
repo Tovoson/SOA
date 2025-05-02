@@ -20,5 +20,5 @@ from GererAppartement.view import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('empploye/', include("employe.urls"))
+    path('employe/', include("employee.urls"))
 ]
